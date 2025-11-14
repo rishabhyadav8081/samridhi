@@ -3,18 +3,18 @@ import img from "./assets/image.png";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <div className="flex flex-col items-center bg-white text-center px-5 py-1 max-w-lg mx-auto">
         {/* Header */}
-        <div className="text-sm font-medium tracking-tight text-amber-700 uppercase border border-rose-200 bg-rose-50 rounded-full px-6 py-1 mb-4">
+        <div className="text-sm font-medium tracking-tight text-rose-900 uppercase border border-rose-700 bg-rose-50 rounded-full px-6 py-1 mb-4">
           Premium Course for Fashion Founders
         </div>
         {/* Title */}
-        <h1 className="text-3xl font-extrabold text-gray-900 leading-tight mb-3 tracking-tight">
+        <h1 className=" font-lora text-3xl font-light text-rose-900  leading-tight mb-3 tracking-tight">
           Turn Your Clothing Brand Dream into a Profitable Reality
         </h1>
         {/* Subtitle */}
-        <p className="text-gray-600 tracking-tight">
+        <p className="text-rose-800 tracking-tighter m-3 text-sm ">
           Learn the exact strategies and systemsthat can help you earn a minimum
           profit of ₹1,00,000 per month.
         </p>
@@ -27,13 +27,13 @@ const Home = () => {
               className="rounded-2xl object-cover h-[50vh] w-full "
             />
             <div className="flex flex-col items-center mb-3">
-              <h2 className="text-2xl font-semibold text-gray-800">
+              <h2 className="text-2xl font-semibold text-rose-900">
                 Samridhi Agarwal
               </h2>
-              <h2 className="text-sm font-semibold text-gray-800">
+              <h2 className="text-sm font-semibold text-rose-700">
                 Founder & Designer
               </h2>
-              <p className="text-sm text-gray-500">Peach It Up</p>
+              <p className="text-sm text-rose-500">Peach It Up</p>
             </div>
           </div>
         </div>

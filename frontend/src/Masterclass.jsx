@@ -35,9 +35,9 @@ const Masterclass = () => {
   ];
 
   return (
-    <section className="bg-linear-to-b from-rose-200 to-rose-200 mx-5 rounded-2xl p-15 px-6 md:px-16 ">
+    <section className="bg-linear-to-b from-rose-200 to-rose-100 mx-5 rounded-2xl p-15 px-6 md:px-16 ">
       <div className="text-center mb-8">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-rose-900 mb-4">
           Who's this Masterclass for
         </h2>
         <p className="text-gray-700 max-w-2xl mx-auto">

@@ -9,7 +9,7 @@ export default function Trusted() {
   return (
     <div className="bg-white flex flex-col items-center text-center px-5 pt-15 lg:py-20 max-w-5xl mx-auto">
       {/* ---------- Trusted Section ---------- */}
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-rose-900 mb-4">
         Trusted by <span className="text-rose-400">500+</span> Clothing Brand
         Founders
       </h2>
@@ -29,7 +29,7 @@ export default function Trusted() {
           <div className="bg-rose-100 rounded-xl p-3 mb-4">
             <Users className="text-rose-400 w-8 " />
           </div>
-          <h3 className="text-4xl font-extrabold text-gray-900 mb-1">550+</h3>
+          <h3 className="text-4xl font-extrabold text-rose-900 mb-1">550+</h3>
           <p className="text-gray-700 font-medium">
             Founders have Joined this Course
           </p>
@@ -60,7 +60,7 @@ export default function Trusted() {
       </div>
 
       {/* ---------- Struggling Section ---------- */}
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-900 m-3">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-rose-900 m-3">
         Are You Struggling With These?
       </h2>
       <p className="text-gray-600 mb-8 max-w-lg">
@@ -141,7 +141,7 @@ export default function Trusted() {
         </div>
         <section className="bg-white flex flex-col items-center text-center px-5 py-12 md:py-16 max-w-4xl mx-auto">
           {/* Heading */}
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-3">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-rose-900 mb-3">
           Well, not anymore!
           </h2>
 

@@ -56,10 +56,10 @@ const Workshop = () => {
     <section className="bg-linear-to-b from-pink-50 to-white py-12 px-4 md:px-16 flex flex-col items-center ">
       {/* Header */}
       <div className="text-center mb-10">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-rose-900 mb-4">
           What Will You Learn in this Workshop
         </h2>
-        <p className="text-gray-700 max-w-2xl mx-auto">
+        <p className="text-rose-700 max-w-2xl mx-auto">
           Transform your clothing brand with these proven strategies and actionable insights.
         </p>
       </div>
