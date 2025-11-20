@@ -1,8 +1,10 @@
 import React from "react";
 import img2 from "./assets/img2.png";
+import { HiCheckBadge } from "react-icons/hi2";
+import { RiWomenLine } from "react-icons/ri";
 const Mentor = () => {
   return (
-    <section className="bg-linear-to-b from-rose-100 to-rose-100 py-1 px-1 md:px-16 text-center mx-5 rounded-2xl">
+    <section className=" py-1 px-1 md:px-16 text-center mx-5 rounded-2xl">
       {/* Title */}
       <h2 className="text-2xl md:text-3xl font-bold text-rose-900  mb-10">
         Meet Your Mentor
@@ -45,46 +47,50 @@ const Mentor = () => {
             a sustainable, profitable business.
           </p>
         </div>
-        <div className="bg-white p-8 sm:p-12 lg:p-16 space-y-6">
+        <div className="bg-white p-12 sm:p-12 lg:p-16 space-y-6">
           <div className="space-y-10">
             {/* Card 1 */}
-            <div className="bg-white border border-rose-100 rounded-2xl shadow-sm hover:shadow-md transition-all flex items-center gap-4">
+            <div className="bg-white border border-rose-100 p-3 rounded-2xl shadow-sm hover:shadow-md transition-all flex items-center gap-4">
               <div className="bg-rose-100 rounded-xl p-2 mt-1">
-                <span className="text-pink-500 text-xl">🎯</span>
+                <span className="text-pink-500 text-xl">
+                  <HiCheckBadge size={28} className="text-rose-400" />
+                </span>
               </div>
               <div className="text-left">
-                <h3 className="text-lg font-semibold  text-center text-rose-900 mb-1">
+                <h3 className="text-md font-semibold  text-center text-rose-900 mb-1">
                   Proven Track Record
                 </h3>
-                <p className="text-rose-700 text-sm  text-center">
+                <p className="text-rose-700 text-xs  text-center">
                   Built a successful brand from scratch with zero funding
                 </p>
               </div>
             </div>
             {/* Card 2 */}
-            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-all  flex items-center gap-4">
+            <div className="bg-white rounded-2xl p-3  shadow-sm hover:shadow-md transition-all  flex items-center gap-4">
               <div className="bg-rose-100 rounded-xl p-2 mt-1">
                 <span className="text-pink-500 text-xl">📈</span>
               </div>
               <div className="text-left">
-                <h3 className="text-lg font-semibold text-center text-rose-900 mb-1">
+                <h3 className="text-md font-semibold text-center text-rose-900 mb-1">
                   Real Results
                 </h3>
-                <p className="text-rose-700 text-sm  text-center">
+                <p className="text-rose-700 text-xs  text-center">
                   Helped 500+ founders scale their clothing businesses
                 </p>
               </div>
             </div>
             {/* Card 3 */}
-            <div className="bg-white border border-rose-100 rounded-2xl shadow-sm hover:shadow-md transition-all  flex items-center gap-4">
+            <div className="bg-white border p-3  border-rose-100 rounded-2xl shadow-sm hover:shadow-md transition-all  flex items-center gap-4">
               <div className="bg-rose-100 rounded-xl p-2 mt-1">
-                <span className="text-pink-500 text-xl">❤️</span>
+                <span className="text-pink-500 text-xl">
+                  <RiWomenLine size={28} className="text-rose-500" />
+                </span>
               </div>
               <div className="text-left">
-                <h3 className="text-lg font-semibold text-rose-900 mb-1  text-center">
+                <h3 className="text-md font-semibold text-rose-900 mb-1  text-center">
                   Women Empowerment
                 </h3>
-                <p className="text-rose-700 text-sm  text-center">
+                <p className="text-rose-700 text-xs  text-center">
                   Dedicated to helping women founders succeed in fashion
                 </p>
               </div>

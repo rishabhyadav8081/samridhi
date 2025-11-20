@@ -73,7 +73,7 @@ export default function FAQSection() {
     <section className="py-8 md:py-12 px-4 bg-white relative overflow-hidden">
       {/* Decorative question marks */}
       <div className="absolute top-20 right-20 opacity-5">
-        <HelpCircle className="w-64 h-64 text-rose-400" />
+        {/* <HelpCircle className="w-64 h-64 text-rose-400" /> */}
       </div>
 
       <div className="max-w-4xl mx-auto relative z-10">

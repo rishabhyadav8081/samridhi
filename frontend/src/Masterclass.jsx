@@ -1,12 +1,14 @@
 import React from "react";
-
+import { SiRocket } from "react-icons/si";
+import { FaRegLightbulb, FaUsers } from "react-icons/fa";
+import { FiTrendingUp } from "react-icons/fi";
 const Masterclass = () => {
   const cards = [
     {
       title: "Aspiring Fashion Entrepreneurs",
       description:
         "Ambitious visionaries who have an idea and want to start their own clothing brand.",
-        icon: "👩‍💼",
+        icon:<SiRocket className="text-gray-600" size={28} />,
     },
     {
       title: "Emerging Designers",
@@ -18,19 +20,19 @@ const Masterclass = () => {
       title: "Small Business Owners",
       description:
         " Struggling brand owners looking to expand, scale, and build systems that create demand.",
-      icon: "💡",
+      icon:<FiTrendingUp size={28} className="text-green-600" />,
     },
     {
       title: "Brand Builders",
       description:
         " Designers with great creativity but unsure how to turn it into a profitable business.        ",
-      icon: "🎨",
+      icon: <FaRegLightbulb size={28} className="text-rose-500" />,
     },
     {
         title: "Brand Builders",
         description:
           "Founders who are about to launch or have launched their first collection. ",
-        icon: "👗",
+        icon: <FaUsers size={28} className="text-indigo-600" />,
       },
   ];
 

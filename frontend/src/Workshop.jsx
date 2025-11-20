@@ -86,7 +86,7 @@ const Workshop = () => {
       </div>
       <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm justify-center items-center pt-5">
           <button className="bg-rose-400 hover:bg-rose-500 hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-full w-full">
-            Register Now @ Just ₹97 →
+            Register Now @ Just ₹99 →
           </button>
         </div>
     </section>

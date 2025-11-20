@@ -10,14 +10,14 @@ export default function FinalCTASection() {
         <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-pink-200 rounded-full blur-3xl animate-pulse"></div>
       </div>
 
-      {/* Floating sparkles */}
+      {/* Floating sparkles
       <Sparkles className="absolute top-32 left-1/4 w-8 h-8 text-white/40 animate-float" />
       <Sparkles className="absolute top-1/3 right-1/4 w-6 h-6 text-white/30 animate-float-delayed" />
-      <Sparkles className="absolute bottom-32 left-1/3 w-7 h-7 text-white/35 animate-float" style={{ animationDelay: '3s' }} />
+      <Sparkles className="absolute bottom-32 left-1/3 w-7 h-7 text-white/35 animate-float" style={{ animationDelay: '3s' }} /> */}
 
       <div className="max-w-5xl mx-auto text-center relative z-10">
         <div className="inline-block mb-8 animate-float">
-          <Sparkles className="w-16 h-16 text-white mx-auto" />
+          {/* <Sparkles className="w-16 h-16 text-white mx-auto" /> */}
         </div>
 
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">"
@@ -36,13 +36,13 @@ export default function FinalCTASection() {
             </div>
             <div className="group cursor-default">
               <div className="flex items-center justify-center mb-2">
-                <Star className="w-8 h-8 text-amber-300 fill-amber-300 mr-1" />
-                <p className="text-4xl md:text-5xl font-bold group-hover:scale-110 transition-transform">"4.87</p>
+                {/* <Star className="w-8 h-8 text-amber-300 fill-amber-300 mr-1" /> */}
+                <p className="text-4xl md:text-5xl font-bold group-hover:scale-110 transition-transform">4.87</p>
               </div>
               <p className="text-xs text-rose-50">Average Rating</p>
             </div>
             <div className="group cursor-default">
-              <p className="text-4xl md:text-5xl font-bold mb-2 group-hover:scale-110 transition-transform">"5 Hours</p>
+              <p className="text-4xl md:text-5xl font-bold mb-2 group-hover:scale-110 transition-transform">5 Hours</p>
               <p className="text-xs text-rose-50">Of Expert Training</p>
             </div>
           </div>
