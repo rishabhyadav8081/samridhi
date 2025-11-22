@@ -77,11 +77,11 @@ export default function FAQSection() {
       </div>
 
       <div className="max-w-4xl mx-auto relative z-10">
-        <div className="text-center mb-20">
-          <h2 className="text-3xl md:text-5xl font-bold text-rose-900 mb-4">
+        <div className="text-center mb-10">
+          <h2 className="text-3xl md:text-5xl font-bold text-black mb-4">
             Got Questions? We've Got Answers.
           </h2>
-          <p className="text-sm text-rose-700">
+          <p className="text-sm text-[#805257]">
             Everything you need to know before enrolling
           </p>
         </div>
@@ -92,7 +92,7 @@ export default function FAQSection() {
             return (
               <div
                 key={index}
-                className="bg-white rounded-3xl border border-rose-100 overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:border-rose-400 hover:scale-105 hover:bg-linear-to-r hover:from-rose-50 hover:to-pink-50"
+                className="bg-white rounded-3xl border border-rose-100 overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:border-rose-100 hover:scale-105 hover:bg-linear-to-r hover:from-rose-50 hover:to-pink-50"
               >
                 <button
                   className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-transparent transition-colors group"
@@ -101,22 +101,22 @@ export default function FAQSection() {
                   }
                 >
                   <div className="flex items-center gap-4 pr-8">
-                    <div className="shrink-0 w-10 h-10 bg-linear-to-br from-rose-400 to-pink-400 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div className="shrink-0 w-10 h-10 bg-[#D88C8C] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-md">
                       <IconComponent className="w-5 h-5 text-white" />
                     </div>
-                    <span className="text-sm font-semibold text-rose-900 group-hover:text-rose-600 transition-colors">
+                    <span className="text-sm font-semibold  transition-colors">
                       {faq.question}
                     </span>
                   </div>
                   <ChevronDown
-                    className={`w-5 h-5 text-rose-500 shrink-0 transition-transform duration-300 group-hover:scale-110 ${
+                    className={`w-5 h-5  shrink-0 transition-transform duration-300 group-hover:scale-110 ${
                       openIndex === index ? "rotate-180" : ""
                     }`}
                   />
                 </button>
                 {openIndex === index && (
                   <div className="px-8 pb-6 animate-fade-in">
-                    <p className="text-xs leading-relaxed pl-14 text-rose-700">
+                    <p className="text-xs leading-relaxed pl-14 text-[#805257]">
                       {faq.answer}
                     </p>
                   </div>
@@ -126,11 +126,11 @@ export default function FAQSection() {
           })}
         </div>
 
-        <div className="mt-16 text-center bg-cream-50 rounded-3xl p-10 border border-rose-200 shadow-lg">
-          <p className="text-sm text-rose-900 mb-2 font-medium">
+        <div className="mt-5 text-center bg-cream-50 rounded-3xl p-10 border border-rose-100 shadow-lg">
+          <p className="text-sm  mb-2 font-medium">
             Still have questions?
           </p>
-          <p className="text-xs text-rose-700 leading-relaxed">
+          <p className="text-xs text-[#805257] leading-relaxed">
             We're here to help! Reach out to us and we'll get back to you within
             24 hours.
           </p>
@@ -144,7 +144,7 @@ export default function FAQSection() {
             className="group w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 border-2 border-rose-100 hover:border-rose-300"
           >
             <svg
-              className="w-7 h-7 text-blue-600 group-hover:text-blue-700 transition-colors"
+              className="w-7 h-7 text-[#D88C8C] transition-colors"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -159,7 +159,7 @@ export default function FAQSection() {
             className="group w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 border-2 border-rose-100 hover:border-rose-300"
           >
             <svg
-              className="w-7 h-7 text-rose-600 group-hover:text-rose-700 transition-colors"
+              className="w-7 h-7 text-[#D88C8C] transition-colors"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -174,7 +174,7 @@ export default function FAQSection() {
             className="group w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 border-2 border-rose-100 hover:border-rose-300"
           >
             <svg
-              className="w-8 h-8 text-red-600 group-hover:text-red-700 transition-colors"
+              className="w-8 h-8 text-[#D88C8C] transition-colors"
               fill="currentColor"
               viewBox="0 0 24 24"
             >

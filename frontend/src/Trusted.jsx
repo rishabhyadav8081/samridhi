@@ -7,13 +7,12 @@ import { FaRegStar } from "react-icons/fa";
 import Counter from "./Counter";
 import Marquee from "react-fast-marquee";
 
-
 export default function Trusted() {
   return (
     <div className="bg-white flex flex-col items-center text-center px-5 pt-15 lg:py-20 max-w-5xl mx-auto">
       {/* ---------- Trusted Section ---------- */}
-      <h2 className="outfit-title  text-2xl md:text-3xl lg:text-4xl font-extrabold text-rose-900 mb-4">
-        Trusted by <span className="text-[#eba181]">500+</span> Clothing Brand
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-black mb-4">
+        Trusted by <span className="text-[#D88C8C]">500+</span> Clothing Brand
         Founders
       </h2>
 
@@ -22,20 +21,20 @@ export default function Trusted() {
         {[...Array(5)].map((_, i) => (
           <Star key={i} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
         ))}
-        <span className="text-lg font-semibold text-gray-800 ml-2">4.87</span>
-        <span className="text-gray-500 text-sm">out of 5</span>
+        <span className="text-lg font-semibold text-[#805257] ml-2">4.87</span>
+        <span className="text-[#805257] text-sm">out of 5</span>
       </div>
 
       {/* Card: Founders Joined */}
-      <div className="bg-white border border-rose-100 rounded-2xl shadow-sm hover:shadow-md transition-all w-full max-w-md py-1 px-6 mb-1">
-        <div className="flex flex-col items-center p-3">
-          <div className="bg-rose-100 rounded-xl p-4 mb-4 cursor-pointer hover:scale-115 transition-all duration-100">
-            <Users className="text-[#eba181] w-8 " />
+      <div className="bg-white border border-rose-100 rounded-2xl shadow-sm hover:shadow-md transition-all w-full max-w-md   mb-1">
+        <div className="flex flex-col items-center justify-center p-5">
+          <div className="bg-[#D88C8C] rounded-xl p-4 mb-4 cursor-pointer hover:scale-115 transition-all duration-100">
+            <Users className="text-white w-8 " />
           </div>
-          <h3 className="text-4xl font-extrabold text-[#eba181] mb-1 outfit-title ">
-          <Counter to={550} />+
+          <h3 className="text-4xl font-extrabold text-[#D88C8C]  outfit-title ">
+            <Counter to={550} />+
           </h3>
-          <p className="text-gray-700 font-medium">
+          <p className="text-[#805257] font-medium">
             Founders have Joined this Course
           </p>
         </div>
@@ -47,39 +46,50 @@ export default function Trusted() {
           speed={1}
           className="py-4"
         > */}
-        <div className="flex justify-around overflow-hidden text-sm text-gray-700 m-10 gap-10 animate-scroll-left ">
-          <div className="flex flex-col items-center ">
-            <LuUser size={30} className="mb-2 cursor-pointer hover:scale-115 transition-all duration-300" />
-            <span className="font-bold text-[#eba181]">500+</span>
-            <span>Students</span>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <FaRegStar size={30} className="mb-2 text-yellow-400 cursor-pointer hover:scale-115 transition-all duration-300" />
-            <span className="font-bold text-[#eba181]">4.87</span>
-            <span>Rating</span>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <CiClock2 size={30} className="mb-2 cursor-pointer hover:scale-115 transition-all duration-300" />
-            <span className="font-bold text-[#eba181]">2 Hours</span>
-            <span>Duration</span>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <IoLanguage size={30} className="mb-2 cursor-pointer hover:scale-115 transition-all duration-300" />
-            <span className="font-bold text-[#eba181]">EN + HI</span>
-            <span>Languages</span>
-          </div>
-          
+      <div className="flex justify-around overflow-hidden text-sm text-gray-700 m-10 gap-10 animate-scroll-left ">
+        <div className="flex flex-col items-center ">
+          <LuUser
+            size={30}
+            className="mb-2 cursor-pointer hover:scale-115 transition-all duration-300"
+          />
+          <span className="font-bold text-[#805257]">500+</span>
+          <span>Students</span>
         </div>
+
+        <div className="flex flex-col items-center">
+          <FaRegStar
+            size={30}
+            className="mb-2 text-yellow-400 cursor-pointer hover:scale-115 transition-all duration-300"
+          />
+          <span className="font-bold text-[#805257]">4.87</span>
+          <span>Rating</span>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <CiClock2
+            size={30}
+            className="mb-2 cursor-pointer hover:scale-115 transition-all duration-300"
+          />
+          <span className="font-bold text-[#805257]">2 Hours</span>
+          <span>Duration</span>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <IoLanguage
+            size={30}
+            className="mb-2 cursor-pointer hover:scale-115 transition-all duration-300"
+          />
+          <span className="font-bold text-[#805257]">EN + HI</span>
+          <span>Languages</span>
+        </div>
+      </div>
       {/* </marquee> */}
 
       {/* ---------- Struggling Section ---------- */}
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-rose-900 m-3">
-        Are You Struggling With These?
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold  m-3">
+        Are You Struggling With These ?
       </h2>
-      <p className="text-gray-600 font-extralight mb-8 max-w-lg">
+      <p className="text-white text-sm font-extralight  max-w-lg tracking-tighter">
         Don’t worry! You’re not alone. These exact challenges are faced by
         thousands of clothing brand founders every day.
       </p>
@@ -88,14 +98,14 @@ export default function Trusted() {
       <div className="flex flex-col gap-5 w-full max-w-xl">
         {/* Card 1 */}
         <div className="bg-white border border-rose-100  rounded-2xl shadow-sm  cursor-pointer hover:shadow-xl hover:-translate-y-1 duration-300 transition-all p-4 flex items-start gap-4">
-          <div className="bg-rose-200 rounded-xl p-2 mt-1">
-            <X className="text-[#ea8f69] w-5 h-5" />
+          <div className="bg-[#D88C8C] rounded-xl p-2 mt-1">
+            <X className="text-white w-5 h-5" />
           </div>
           <div className="text-left">
             {/* <h3 className="text-lg font-semibold text-gray-900 mb-1">
               People visit but don’t buy
             </h3> */}
-            <p className="text-gray-600 text-sm font-medium">
+            <p className="text-[#805257] text-sm font-medium">
               You have a stunning collection but can’t convert visitors into
               buyers.
             </p>
@@ -104,65 +114,65 @@ export default function Trusted() {
 
         {/* Card 2 */}
         <div className="bg-white border border-rose-100 rounded-2xl shadow-sm  transition-all cursor-pointer hover:shadow-xl hover:-translate-y-1 duration-300 p-4 flex items-start gap-4">
-          <div className="bg-rose-200 rounded-xl p-2 mt-1">
-            <X className="text-[#eba181] w-5 h-5" />
+          <div className="bg-[#D88C8C] rounded-xl p-2 mt-1">
+            <X className="text-white w-5 h-5" />
           </div>
           <div className="text-left">
             {/* <h3 className="text-lg font-semibold text-gray-900 mb-1">
               No walk-ins or online traffic
             </h3> */}
-            <p className="text-gray-600 text-sm font-medium">
+            <p className="text-[#805257] text-sm font-medium">
               Your website looks beautiful, but sales are stagnant.
             </p>
           </div>
         </div>
         {/* Card 3 */}
         <div className="bg-white border border-rose-100 rounded-2xl shadow-sm cursor-pointer hover:shadow-xl hover:-translate-y-1 duration-300 transition-all p-4 flex items-start gap-4">
-          <div className="bg-rose-200 rounded-xl p-2 mt-1">
-            <X className="text-[#eba181] w-5 h-5" />
+          <div className="bg-[#D88C8C] rounded-xl p-2 mt-1">
+            <X className="text-white w-5 h-5" />
           </div>
           <div className="text-left">
             {/* <h3 className="text-lg font-semibold text-gray-900 mb-1">
               Sales stuck despite hard work
             </h3> */}
-            <p className="text-gray-600 text-sm font-medium">
+            <p className="text-[#805257] text-sm font-medium">
               People think your product is “too expensive”.
             </p>
           </div>
         </div>
         {/* Card 4 */}
         <div className="bg-white border border-rose-100 rounded-2xl shadow-sm cursor-pointer hover:shadow-xl hover:-translate-y-1 duration-300 transition-all p-4 flex items-start gap-4">
-          <div className="bg-rose-200 rounded-xl p-2 mt-1">
-            <X className="text-[#eba181] w-5 h-5" />
+          <div className="bg-[#D88C8C] rounded-xl p-2 mt-1">
+            <X className="text-white w-5 h-5" />
           </div>
           <div className="text-left">
             {/* <h3 className="text-lg font-semibold text-gray-900 mb-1">
               Don't know how to collaborate
             </h3> */}
-            <p className="text-gray-600 text-sm  font-medium">
+            <p className="text-[#805257] text-sm  font-medium">
               Your brand has hit a sales plateau.
             </p>
           </div>
         </div>
         {/* Card 5 */}
         <div className="bg-white border border-rose-100 rounded-2xl shadow-sm cursor-pointer hover:shadow-xl hover:-translate-y-1 duration-300 transition-all p-4 flex items-start gap-4">
-          <div className="bg-rose-200 rounded-xl p-2 mt-1">
-            <X className="text-[#eba181] w-5 h-5" />
+          <div className="bg-[#D88C8C] rounded-xl p-2 mt-1">
+            <X className="text-white w-5 h-5" />
           </div>
           <div className="text-left">
-            <p className="text-gray-600 text-sm font-medium">
+            <p className="text-[#805257] text-sm font-medium">
               You’re working hard but profits aren’t showing up.
             </p>
           </div>
         </div>
-        <section className="bg-white flex flex-col items-center text-center px-5 py-12 md:py-16 max-w-4xl mx-auto">
+        <section className="bg-white flex flex-col items-center text-center px-5 py-10 md:py-16 max-w-4xl mx-auto">
           {/* Heading */}
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-rose-900 mb-3">
-            Well, not anymore!
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-black ">
+            Well, not anymore !
           </h2>
 
           {/* Subtext */}
-          <p className="text-gray-600 text-sm md:text-base mb-8 max-w-2xl">
+          <p className="text-[#805257] text-sm md:text-base mb-8 max-w-2xl">
             Watch this video to understand how this masterclass will change your
             mindset and your business.
           </p>
@@ -179,14 +189,14 @@ export default function Trusted() {
             ></iframe>
 
             {/* Overlay Badge */}
-            <div className="absolute top-3 left-3 bg-rose-200/90 text-rose-800 text-xs md:text-sm font-semibold rounded-full px-3 py-1 backdrop-blur-sm">
+            <div className="absolute top-3 left-3 bg-[#D88C8C]/90 text-rose-800 text-xs md:text-sm font-semibold rounded-full px-3 py-1 backdrop-blur-sm">
               🎥 Course Preview
             </div>
           </div>
 
           {/* Register Button */}
-          <button className="bg-linear-to-r bg-[#eba181] hover:bg-rose-500 text-white font-semibold py-3 md:py-4 px-10 rounded-full shadow-md hover:shadow-lg hover:scale-[1.02] transition-all">
-            Register Now at Just ₹99 →
+          <button className="outfit-title  bg-[#D88C8C] hover:bg-[#e38989] hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-full w-full">
+            Register Now @ Just ₹99
           </button>
         </section>
       </div>

@@ -56,10 +56,10 @@ const Workshop = () => {
     <section className="bg-linear-to-b from-pink-50 to-white py-12 px-4 md:px-16 flex flex-col items-center ">
       {/* Header */}
       <div className="text-center mb-10">
-        <h2 className="text-2xl md:text-3xl font-bold text-rose-900 mb-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-black  mb-4">
           What Will You Learn in this Workshop
         </h2>
-        <p className="text-rose-700 max-w-2xl mx-auto">
+        <p className="text-[#805257] max-w-2xl mx-auto">
           Transform your clothing brand with these proven strategies and actionable insights.
         </p>
       </div>
@@ -72,21 +72,21 @@ const Workshop = () => {
             className="w-full max-w-[320px] bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition-shadow duration-300"
           >
             <div className="flex justify-center items-center mb-4">
-              <div className="bg-pink-200 text-pink-700 text-3xl w-14 h-14 flex items-center justify-center rounded-lg">
+              <div className="bg-[#D88C8C] text-3xl w-14 h-14 flex items-center justify-center rounded-lg">
                 {card.icon}
               </div>
             </div>
             <h3 className="font-semibold text-md text-gray-900 mb-2">
               {card.title}
             </h3>
-            <p className="text-gray-600 text-sm font-light">{card.description}</p>
+            <p className="text-[#805257] text-sm font-light">{card.description}</p>
           </div>
           
         ))}
       </div>
       <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm justify-center items-center pt-5">
-          <button className="bg-rose-400 hover:bg-rose-500 hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-full w-full">
-            Register Now @ Just ₹99 →
+      <button className="outfit-title  bg-[#D88C8C] hover:bg-[#e38989] hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-full w-full">
+            Register Now @ Just ₹99 
           </button>
         </div>
     </section>

@@ -75,23 +75,23 @@ export default function TestimonialSection() {
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold  mb-4 text-rose-900">
+        <div className="text-center  md:mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold  mb-4 text-black">
             Real Stories from Real Founders
           </h2>
-          <p className="text-sm md:text-base text-rose-900">
+          <p className="text-sm md:text-base text-[#805257]">
             Join hundreds of women who transformed their clothing brands
           </p>
         </div>
 
         <div className="relative">
-          <div className="flex justify-center text-center overflow-x-auto scrollbar-hide gap-8 pb-8 snap-x snap-mandatory">
+          <div className="flex justify-center text-center overflow-x-auto scrollbar-hide gap-8 mt-5 snap-x snap-mandatory">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
                 className="shrink-0 w-80 md:w-96 bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl border border-rose-100 hover:border-rose-300 transition-all duration-500 hover:-translate-y-2 snap-center flex flex-col justify-center items-center mr-5"
               >
-                <Quote className="w-10 h-10 text-rose-200 mb-4" />
+                <Quote className="w-10 h-10 text-[#805257] mb-4" />
 
                 <div className="flex mb-4 ">
                   {[...Array(testimonial.rating)].map((_, i) => (
@@ -99,19 +99,19 @@ export default function TestimonialSection() {
                   ))}
                 </div>
 
-                <p className="text-sm md:text-base text-rose-800 leading-relaxed mb-6 italic">
+                <i className="text-sm md:text-base text-[#805257] leading-relaxed mb-6 italic">
                   "{testimonial.quote}"
-                </p>
+                </i>
 
                 <div className="border-t border-rose-100 pt-6">
-                  <h4 className="font-bold text-rose-900 text-base mb-1">
+                  <h4 className="font-bold text-black text-base mb-1">
                     {testimonial.name}
                   </h4>
-                  <p className="text-rose-600 text-sm mb-4">
+                  <p className="text-[#805257] text-sm mb-4">
                     {testimonial.business}
                   </p>
                   <div className="bg-cream-50 px-4 py-3 rounded-xl border border-rose-100">
-                    <p className="text-rose-800 font-semibold text-sm">
+                    <p className="text-[#805257] font-semibold text-sm">
                       {testimonial.result}
                     </p>
                   </div>
