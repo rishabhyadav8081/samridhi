@@ -33,7 +33,7 @@ export default function PromiseSection() {
                 </p>
               </div>
             </div> */}
-            <button className="outfit-title  bg-[#D88C8C] hover:bg-[#e38989] hover:scale-[1.02] transition-all text-white font-semibold py-3 px-20 rounded-full w-full">
+            <button className="outfit-title  bg-[#D88C8C] hover:bg-[#e38989] hover:scale-[1.02] transition-all text-white font-semibold py-3 px-15 rounded-full w-full">
             Our Promise To You
           </button>
           </div>

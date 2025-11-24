@@ -2,6 +2,8 @@ import React from "react";
 import img2 from "./assets/img2.png";
 import { HiCheckBadge } from "react-icons/hi2";
 import { RiWomenLine } from "react-icons/ri";
+import { GoGraph } from "react-icons/go";
+
 const Mentor = () => {
   return (
     <section className=" py-1 px-1 md:px-16 text-center mx-5 ">
@@ -17,7 +19,7 @@ const Mentor = () => {
         />
       </div>
       {/* Mentor Card */}
-      <div className="w-full mx-auto rounded-3xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mt-5">
+      <div className="w-full mx-auto rounded-3xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mt-5 px-2 ">
         {/* Image */}
 
         {/* Text */}
@@ -50,9 +52,9 @@ const Mentor = () => {
           <div className="space-y-10">
             {/* Card 1 */}
             <div className="bg-white border border-rose-100 p-3 rounded-2xl shadow-md hover:shadow-2xl hover:scale-105 transition-all flex items-center gap-4">
-              <div className="bg-rose-100 rounded-xl p-2 mt-1">
+              <div className="bg-[#D88C8C] rounded-xl p-2 mt-1">
                 <span className="text-[#805257] text-xl">
-                  <HiCheckBadge size={28} className="text-rose-400" />
+                  <HiCheckBadge size={28}  className="text-white " />
                 </span>
               </div>
               <div className="text-left">
@@ -65,9 +67,10 @@ const Mentor = () => {
               </div>
             </div>
             {/* Card 2 */}
-            <div className="bg-white rounded-2xl p-3  border-rose-100 shadow-md hover:shadow-2xl hover:scale-105  transition-all  flex items-center gap-4">
-              <div className="bg-rose-100 rounded-xl p-2 mt-1">
-                <span className="text-pink-500 text-xl">📈</span>
+            <div className=" rounded-2xl p-3  border-rose-100 shadow-md hover:shadow-2xl hover:scale-105  transition-all  flex items-center gap-4">
+              <div className="bg-[#D88C8C] rounded-xl p-2 mt-1">
+              
+              <GoGraph size={28} className="text-white" />
               </div>
               <div className="text-left">
                 <h3 className="text-md font-semibold text-center text-black mb-1">
@@ -79,10 +82,10 @@ const Mentor = () => {
               </div>
             </div>
             {/* Card 3 */}
-            <div className="bg-white border p-3  border-rose-100 rounded-2xl  shadow-md hover:shadow-2xl hover:scale-105 transition-all  flex items-center gap-4">
-              <div className="bg-rose-100 rounded-xl p-2 mt-1">
+            <div className=" border p-3  border-rose-100 rounded-2xl  shadow-md hover:shadow-2xl hover:scale-105 transition-all  flex items-center gap-4">
+              <div className="bg-[#D88C8C] rounded-xl p-2 mt-1">
                 <span className="text-pink-500 text-xl">
-                  <RiWomenLine size={28} className="text-rose-500" />
+                  <RiWomenLine size={28} className="text-white" />
                 </span>
               </div>
               <div className="text-left">

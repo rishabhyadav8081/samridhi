@@ -8,7 +8,9 @@ const Home = () => {
         {/* Header */}
         <p className="font-sans text-xs font-extralight tracking-tight uppercase text-[#805257] border border-rose-200  rounded-full px-2 py-0.5 my-3">
           Premium Course for Fashion Founders
+         
         </p>
+        <p>Glacial indifference </p>
         {/* Title */}
         <h1 className=" font-extrabold   text-3xl text-black   mb-3 tracking-tighter">
           Turn Your Clothing Brand Dream into a Profitable Reality
