@@ -68,7 +68,7 @@ const testimonials = [
 
 export default function TestimonialSection() {
   return (
-    <section className="py-12 md:py-3 px-4 bg-white relative overflow-hidden">
+    <section className="py-12 md:py-3 px-4 bg-white relative overflow-hidden w-[40vh] mx-auto">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-rose-200 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-pink-200 rounded-full blur-3xl"></div>

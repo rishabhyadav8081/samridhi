@@ -53,7 +53,7 @@ const Workshop = () => {
   ];
 
   return (
-    <section className="bg-linear-to-b from-pink-50 to-white py-12 px-4 md:px-16 flex flex-col items-center ">
+    <section className="bg-linear-to-b from-pink-50 to-white py-12 px-4 md:px-16 flex flex-col items-center w-[40vh] mx-auto">
       {/* Header */}
       <div className="text-center mb-10">
         <h2 className="text-2xl md:text-3xl font-bold text-black  mb-4">

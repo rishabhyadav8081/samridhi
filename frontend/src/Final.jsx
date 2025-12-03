@@ -2,7 +2,7 @@ import { ArrowRight, Sparkles, Star } from 'lucide-react';
 
 export default function FinalCTASection() {
   return (
-    <section className="py-12 md:py-16 px-4 bg-linear-to-b from-[#D88C8C] to-[#D88C8C]  relative overflow-hidden">
+    <section className="py-12 md:py-16 px-4 bg-linear-to-b from-[#D88C8C] to-[#D88C8C]  relative overflow-hidden ">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-96 h-96 bg-white rounded-full blur-3xl animate-float"></div>

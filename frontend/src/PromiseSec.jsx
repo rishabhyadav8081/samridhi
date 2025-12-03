@@ -2,7 +2,7 @@ import { Shield, Sparkles, Heart, Award, CheckCircle2 } from 'lucide-react';
 
 export default function PromiseSection() {
   return (
-    <section className="py-1 md:py-20 px-4   relative overflow-hidden m-5 rounded-2xl">
+    <section className="py-1 md:py-20 px-4   relative overflow-hidden m-5 rounded-2xl w-[40vh] mx-auto">
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="flex flex-col items-center">
           <div className="relative mb-8 md:mb-12">
@@ -46,7 +46,7 @@ export default function PromiseSection() {
               <h3 className="text-xl md:text-2xl font-bold text-black mb-4">
                 You Pay Only Once
               </h3>
-              <p className="text-sm md:text-base  leading-relaxed text-[#805257]">
+              <p className="text-sm md:text-base  text-center leading-relaxed text-[#805257]">
                 Get lifetime access on a one-time payment and watch anytime, anywhere as per your convenience.
               </p>
             </div>
@@ -58,7 +58,7 @@ export default function PromiseSection() {
               <h3 className="text-xl md:text-2xl font-bold text-black mb-4">
                 100% Refund Policy
               </h3>
-              <p className="text-sm md:text-base leading-relaxed text-[#805257]">
+              <p className="text-sm text-center md:text-base leading-relaxed text-[#805257]">
                 Cancel anytime within 14 days of purchase and get a full refund, no questions asked.
               </p>
             </div>
@@ -70,7 +70,7 @@ export default function PromiseSection() {
               <h3 className="text-xl md:text-2xl font-bold text-black mb-4">
                 Free Upgrades
               </h3>
-              <p className="text-sm md:text-base leading-relaxed text-[#805257]">
+              <p className="text-sm text-center md:text-base leading-relaxed text-[#805257]">
                 Gain all future updates, additions and changes made to the course at no additional cost.
               </p>
             </div>

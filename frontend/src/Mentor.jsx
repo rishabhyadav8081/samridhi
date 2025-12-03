@@ -6,7 +6,7 @@ import { GoGraph } from "react-icons/go";
 
 const Mentor = () => {
   return (
-    <section className=" py-1 px-1 md:px-16 text-center mx-5 ">
+    <section className=" py-1 px-1 md:px-16 text-center mx-auto w-[40vh]">
       {/* Title */}
       <h2 className="text-2xl md:text-3xl font-bold text-black mb-3">
         Meet Your Mentor
@@ -58,10 +58,10 @@ const Mentor = () => {
                 </span>
               </div>
               <div className="text-left">
-                <h3 className="text-md font-semibold  text-center text-black mb-1">
+                <h3 className="text-md font-semibold  text-right text-black mb-1">
                   Proven Track Record
                 </h3>
-                <p className="text-[#805257] text-xs  text-center">
+                <p className="text-[#805257] text-xs  text-right">
                   Built a successful brand from scratch with zero funding
                 </p>
               </div>
@@ -73,10 +73,10 @@ const Mentor = () => {
               <GoGraph size={28} className="text-white" />
               </div>
               <div className="text-left">
-                <h3 className="text-md font-semibold text-center text-black mb-1">
+                <h3 className="text-md font-semibold text-right text-black mb-1">
                   Real Results
                 </h3>
-                <p className="text-[#805257] text-xs  text-center">
+                <p className="text-[#805257] text-xs  text-right">
                   Helped 500+ founders scale their clothing businesses
                 </p>
               </div>
@@ -89,10 +89,10 @@ const Mentor = () => {
                 </span>
               </div>
               <div className="text-left">
-                <h3 className="text-md font-semibold text-black mb-1  text-center">
+                <h3 className="text-md font-semibold text-black mb-1  text-right">
                   Women Empowerment
                 </h3>
-                <p className="text-[#805257] text-xs  text-center">
+                <p className="text-[#805257] text-xs  text-right">
                   Dedicated to helping women founders succeed in fashion
                 </p>
               </div>
