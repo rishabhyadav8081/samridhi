@@ -1,5 +1,6 @@
 import React from "react";
 import img from "./assets/image.png";
+import img2 from "./assets/img2.png";
 
 const Home = () => {
   return (
@@ -12,24 +13,24 @@ const Home = () => {
       </div>
 
       {/* Title */}
-      <div className=" w-[40vh]">
-        <h1 className="font-bold text-2xl text-black mb-3 tracking-tighter">
+      <div className=" w-[40vh] mx-auto">
+        <h1 className="font-bold text-3xl text-black mb-2 tracking-tight">
           Turn Your Clothing Brand Dream into a Profitable Reality
         </h1>
       </div>
       {/* Subtitle */}
-      <div className=" w-[40vh]">
-        <p className="text-[#805257] tracking-tighter text-sm">
+      <div className=" w-[40vh] mx-auto">
+        <p className="text-[#805257] tracking-tighter text-md mt-2">
           Learn the exact strategies and systems that can help you earn a
           minimum profit of ₹1,00,000 per month.
         </p>
       </div>
       {/* Image Section */}
-      <div className=" w-[40vh]">
-        <div className="w-full rounded-3xl overflow-hidden p-1">
-          <div className="rounded-2xl flex flex-col items-center justify-evenly">
+      <div className=" w-[40vh] h-full ">
+        <div className="w-full rounded-3xl overflow-hidden">
+          <div className="rounded-2xl flex flex-col items-center justify-between py-3">
             <img
-              src={img}
+              src={img2}
               alt="Course preview"
               className="rounded-2xl object-cover h-[50vh] w-full"
             />
@@ -46,12 +47,12 @@ const Home = () => {
         </div>
       </div>
       {/* Buttons */}
-      <div className=" w-[40vh]">
+      <div className=" w-[30vh]">
         <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm mt-1">
-          <button className="outfit-title bg-[#D88C8C] hover:bg-[#e38989] hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-full w-full">
+          <button className="outfit-title bg-[#D88C8C] hover:bg-[#e38989] hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-xl w-full">
             Register Now @ Just ₹99
           </button>
-          <button className="outfit-title border border-[#D88C8C] text-[#805257] font-medium py-3 rounded-full w-full">
+          <button className="outfit-title border border-[#D88C8C] text-[#805257] font-medium py-3 rounded-xl w-full">
             Watch Intro Video
           </button>
         </div>

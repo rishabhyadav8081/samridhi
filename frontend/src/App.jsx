@@ -20,7 +20,7 @@ function App() {
    <Workshop/>
    <Mentor/>
    <TestimonialSection/>
-   <PromiseSection/>
+   {/* <PromiseSection/> */}
    <FAQSection/>
    <FinalCTASection/>
   </>

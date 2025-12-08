@@ -48,7 +48,7 @@ export default function FinalCTASection() {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm mx-auto">
-          <button className="outfit-title  bg-white/15 hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-full w-full mb-10">
+          <button className="outfit-title  bg-white/15 hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-2xl w-[30vh] mx-auto mb-10">
           Enroll Now 
           </button>
          

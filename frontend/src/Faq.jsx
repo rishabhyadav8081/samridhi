@@ -76,12 +76,12 @@ export default function FAQSection() {
         {/* <HelpCircle className="w-64 h-64 text-rose-400" /> */}
       </div>
 
-      <div className="max-w-4xl mx-auto relative z-10">
+      <div className="max-w-5xl mx-auto relative z-10">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-5xl font-bold text-black mb-4">
             Got Questions? We've Got Answers.
           </h2>
-          <p className="text-sm text-[#805257]">
+          <p className="text-md text-[#805257]">
             Everything you need to know before enrolling
           </p>
         </div>
@@ -92,10 +92,10 @@ export default function FAQSection() {
             return (
               <div
                 key={index}
-                className="bg-white rounded-3xl border border-rose-100 overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:border-rose-100 hover:scale-105 hover:bg-linear-to-r hover:from-rose-50 hover:to-pink-50"
+                className="bg-white rounded-3xl border border-rose-100 overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:border-rose-100 hover:scale-105 hover:bg-linear-to-r hover:from-rose-50 hover:to-pink-50 "
               >
                 <button
-                  className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-transparent transition-colors group"
+                  className="w-full px-2 py-6 text-left flex items-center justify-between hover:bg-transparent transition-colors group"
                   onClick={() =>
                     setOpenIndex(openIndex === index ? null : index)
                   }
@@ -126,11 +126,11 @@ export default function FAQSection() {
           })}
         </div>
 
-        <div className="mt-5 text-center bg-cream-50 rounded-3xl p-10 border border-rose-100 shadow-lg">
-          <p className="text-sm  mb-2 font-medium">
+        <div className=" text-center bg-cream-50 rounded-3xl p-10 border border-rose-100 shadow-lg">
+          <p className="text-lg  mb-2 font-medium">
             Still have questions?
           </p>
-          <p className="text-xs text-[#805257] leading-relaxed">
+          <p className="text-sm text-[#805257] leading-relaxed">
             We're here to help! Reach out to us and we'll get back to you within
             24 hours.
           </p>

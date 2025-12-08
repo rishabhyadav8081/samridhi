@@ -10,9 +10,9 @@ import Marquee from "react-fast-marquee";
 export default function Trusted() {
   return (
     // <div className=" w-[30vh]">
-    <div className="bg-white flex w-[40vh] flex-col items-center text-center px-5 pt-10  mx-auto">
+    <div className="bg-white flex w-[40vh] flex-col items-center text-center  pt-10  mx-auto">
       {/* ---------- Trusted Section ---------- */}
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-black mb-4">
+      <h2 className="text-3xl md:text-3xl lg:text-4xl font-extrabold text-black mb-4">
         Trusted by <span className="text-[#D88C8C]">500+</span> Clothing Brand
         Founders
       </h2>
@@ -87,7 +87,7 @@ export default function Trusted() {
       {/* </marquee> */}
 
       {/* ---------- Struggling Section ---------- */}
-      <h2 className="text-xl md:text-3xl lg:text-4xl font-bold  tracking-tighter ">
+      <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold   ">
         Are You Struggling With These ?
       </h2>
       <p className="text-[#805257] text-sm font-extralight  max-w-lg tracking-tighter p-5">
@@ -168,12 +168,12 @@ export default function Trusted() {
         </div>
         <section className="bg-white flex flex-col items-center text-center px-5 py-10 md:py-16 max-w-4xl mx-auto">
           {/* Heading */}
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-black ">
+          <h2 className="text-3xl md:text-3xl lg:text-4xl font-extrabold text-black ">
             Well, not anymore !
           </h2>
 
           {/* Subtext */}
-          <p className="text-[#805257] text-sm md:text-base mb-8 max-w-2xl">
+          <p className="text-[#805257] text-md md:text-base mb-8 max-w-2xl">
             Watch this video to understand how this masterclass will change your
             mindset and your business.
           </p>
@@ -196,7 +196,7 @@ export default function Trusted() {
           </div>
 
           {/* Register Button */}
-          <button className="outfit-title  bg-[#D88C8C] hover:bg-[#e38989] hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-full w-full">
+          <button className="outfit-title  bg-[#D88C8C] hover:bg-[#e38989] hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-xl w-[30vh]">
             Register Now @ Just ₹99
           </button>
         </section>

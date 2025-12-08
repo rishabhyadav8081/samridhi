@@ -38,7 +38,7 @@ const Masterclass = () => {
   ];
 
   return (
-    <section className="bg-linear-to-b from-[#df9b9b] via-[#dba6a6] to-[#df9595] mt-5 mx-auto rounded-2xl p-10 px-6 md:px-16 w-[40vh] ">
+    <section className="bg-linear-to-b from-[#df9b9b] via-[#dba6a6] to-[#df9595] mt-1 mx-auto rounded-2xl p-10 px-6 md:px-16 w-[40vh] ">
       <div className="text-center mb-8">
         <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
           Who's this Masterclass for

@@ -43,7 +43,7 @@ export default function PromiseSection() {
               <div className="w-16 h-16 bg-[#D88C8C] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">
                 <CheckCircle2 className="w-9 h-9 text-white" strokeWidth={2.5} />
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-black mb-4">
+              <h3 className="text-xl md:text-2xl text-center font-bold text-black mb-4">
                 You Pay Only Once
               </h3>
               <p className="text-sm md:text-base  text-center leading-relaxed text-[#805257]">
@@ -55,7 +55,7 @@ export default function PromiseSection() {
               <div className="w-16 h-16 bg-[#D88C8C]  rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">
                 <Shield className="w-9 h-9 text-white" strokeWidth={2.5} />
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-black mb-4">
+              <h3 className="text-xl md:text-2xl text-center font-bold text-black mb-4">
                 100% Refund Policy
               </h3>
               <p className="text-sm text-center md:text-base leading-relaxed text-[#805257]">

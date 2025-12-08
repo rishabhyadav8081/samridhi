@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "./assets/img2.png";
+import img from "./assets/image.png";
 import { HiCheckBadge } from "react-icons/hi2";
 import { RiWomenLine } from "react-icons/ri";
 import { GoGraph } from "react-icons/go";
@@ -8,18 +8,18 @@ const Mentor = () => {
   return (
     <section className=" py-1 px-1 md:px-16 text-center mx-auto w-[40vh]">
       {/* Title */}
-      <h2 className="text-2xl md:text-3xl font-bold text-black mb-3">
+      <h2 className="text-2xl md:text-3xl font-bold text-black ">
         Meet Your Mentor
       </h2>
-      <div className="relative">
+      <div className="relative ">
         <img
-          src={img2}
+          src={img}
           alt="Mentor"
           className="w-full object-cover rounded-3xl h-[60vh]"
         />
       </div>
       {/* Mentor Card */}
-      <div className="w-full mx-auto rounded-3xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mt-5 px-2 ">
+      <div className="w-full mx-auto rounded-3xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300  px-2 ">
         {/* Image */}
 
         {/* Text */}
@@ -58,10 +58,10 @@ const Mentor = () => {
                 </span>
               </div>
               <div className="text-left">
-                <h3 className="text-md font-semibold  text-right text-black mb-1">
+                <h3 className="text-md font-semibold  text-left text-black mb-1">
                   Proven Track Record
                 </h3>
-                <p className="text-[#805257] text-xs  text-right">
+                <p className="text-[#805257] text-xs  text-left">
                   Built a successful brand from scratch with zero funding
                 </p>
               </div>
@@ -73,10 +73,10 @@ const Mentor = () => {
               <GoGraph size={28} className="text-white" />
               </div>
               <div className="text-left">
-                <h3 className="text-md font-semibold text-right text-black mb-1">
+                <h3 className="text-md font-semibold text-left text-black mb-1">
                   Real Results
                 </h3>
-                <p className="text-[#805257] text-xs  text-right">
+                <p className="text-[#805257] text-xs  text-left">
                   Helped 500+ founders scale their clothing businesses
                 </p>
               </div>
@@ -89,10 +89,10 @@ const Mentor = () => {
                 </span>
               </div>
               <div className="text-left">
-                <h3 className="text-md font-semibold text-black mb-1  text-right">
+                <h3 className="text-md font-semibold text-black mb-1  text-left">
                   Women Empowerment
                 </h3>
-                <p className="text-[#805257] text-xs  text-right">
+                <p className="text-[#805257] text-xs  text-left">
                   Dedicated to helping women founders succeed in fashion
                 </p>
               </div>

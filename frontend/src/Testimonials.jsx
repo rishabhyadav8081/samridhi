@@ -68,7 +68,7 @@ const testimonials = [
 
 export default function TestimonialSection() {
   return (
-    <section className="py-12 md:py-3 px-4 bg-white relative overflow-hidden w-[40vh] mx-auto">
+    <section className="pt-5 md:py-3 px-4 bg-white relative overflow-hidden w-[40vh] mx-auto">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-rose-200 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-pink-200 rounded-full blur-3xl"></div>
@@ -79,7 +79,7 @@ export default function TestimonialSection() {
           <h2 className="text-3xl md:text-5xl font-bold  mb-4 text-black">
             Real Stories from Real Founders
           </h2>
-          <p className="text-sm md:text-base text-[#805257]">
+          <p className="text-md md:text-base text-[#805257]">
             Join hundreds of women who transformed their clothing brands
           </p>
         </div>

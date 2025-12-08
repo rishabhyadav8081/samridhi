@@ -53,23 +53,23 @@ const Workshop = () => {
   ];
 
   return (
-    <section className="bg-linear-to-b from-pink-50 to-white py-12 px-4 md:px-16 flex flex-col items-center w-[40vh] mx-auto">
+    <section className="bg-linear-to-b from-pink-50 to-white py-12 md:px-16 flex flex-col items-center w-[40vh] mx-auto">
       {/* Header */}
       <div className="text-center mb-10">
-        <h2 className="text-2xl md:text-3xl font-bold text-black  mb-4">
+        <h2 className="text-3xl md:text-3xl font-bold text-black  mb-4">
           What Will You Learn in this Workshop
         </h2>
-        <p className="text-[#805257] max-w-2xl mx-auto">
+        <p className="text-[#805257] max-w-2xl mx-auto font-medium">
           Transform your clothing brand with these proven strategies and actionable insights.
         </p>
       </div>
 
       {/* Card Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 justify-items-center ">
         {cards.map((card, index) => (
           <div
             key={index}
-            className="w-full max-w-[320px] bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition-shadow duration-300"
+            className="w-full max-w-[380px] bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition-shadow duration-300"
           >
             <div className="flex justify-center items-center mb-4">
               <div className="bg-[#D88C8C] text-3xl w-14 h-14 flex items-center justify-center rounded-lg">
@@ -85,7 +85,7 @@ const Workshop = () => {
         ))}
       </div>
       <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm justify-center items-center pt-5">
-      <button className="outfit-title  bg-[#D88C8C] hover:bg-[#e38989] hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-full w-full">
+      <button className="outfit-title  bg-[#D88C8C] hover:bg-[#e38989] hover:scale-[1.02] transition-all text-white font-semibold py-3 rounded-xl w-[30vh]">
             Register Now @ Just ₹99 
           </button>
         </div>
